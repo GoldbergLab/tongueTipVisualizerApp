@@ -4,9 +4,15 @@ name,The filename (and possibly path) of the t_stats file each row comes from.
 centroid_x, X (ML) coordinate of 3D centroid of tongue
 centroid_y, Y (AP) coordinate of 3D centroid of tongue
 centroid_z, Z (DV) coordinate of 3D centroid of tongue
+centroid_xf," X (ML) coordinate of 3D centroid of tongue, relative to an anatomical fiducial point"
+centroid_yf," Y (AP) coordinate of 3D centroid of tongue, relative to an anatomical fiducial point"
+centroid_zf," Z (DV) coordinate of 3D centroid of tongue, relative to an anatomical fiducial point"
 tip_x, X (ML) coordinate of tip
 tip_y, Y (AP) coordinate of tip
 tip_z, Z (DV) coordinate of tip
+tip_xf," X (ML) coordinate of tip, relative to an anatomical fiducial point"
+tip_yf," Y (AP) coordinate of tip, relative to an anatomical fiducial point"
+tip_zf," Z (DV) coordinate of tip, relative to an anatomical fiducial point"
 tip_x_raw, Pre-filtered X (ML) coordinate of tip
 tip_y_raw, Pre-filtered Y (AP) coordinate of tip
 tip_z_raw, Pre-filtered Z (DV) coordinate of tip
